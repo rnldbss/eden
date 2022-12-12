@@ -255,7 +255,8 @@ html {
   .about-text {
     grid-row: 2 / 3;
     grid-column: 3 / 4;
-    align-self: start; }
+    align-self: start;
+    margin-right: 5rem; }
 
 .about__container {
   display: grid;
@@ -699,6 +700,37 @@ ion-icon {
   padding-left: 2rem;
   padding-right: 2rem; }
 
+.spa__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 100vh); }
+
+.spa__section-img1 {
+  background-image: url(../img/img-15.jpg);
+  background-size: contain;
+  background-attachment: fixed; }
+
+.spa__section-2 {
+  background-image: url(../img/img-23.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3; }
+
+.spa__section-3 {
+  background-image: url(../img/img-77.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  grid-row: 3 / 4;
+  grid-column: 1 / 2; }
+
+.spa__section-4 {
+  background-image: url(../img/img-23.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  grid-row: 4 / 5;
+  grid-column: 2 / 3; }
+
 li {
   display: inline;
   padding: 15px; }
@@ -709,7 +741,7 @@ a {
   color: #ffffff;
   text-decoration: none;
   list-style-type: none;
-  font-family: "TP Serif", serif; }
+  font-family: "Montserrat", sans-serif, sans-serif; }
 
 #navbar {
   grid-column: 1 / -1;
