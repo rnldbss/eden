@@ -248,7 +248,6 @@ html {
   align-items: center; }
   .about-img {
     width: 700px;
-    height: 400px;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     justify-self: end;
@@ -256,8 +255,7 @@ html {
   .about-text {
     grid-row: 2 / 3;
     grid-column: 3 / 4;
-    align-self: start;
-    margin-left: -50px; }
+    align-self: start; }
 
 .about__container {
   display: grid;
@@ -420,7 +418,7 @@ html {
   gap: 10px;
   grid-column: 1 / 13;
   grid-row: 1 / 2;
-  background-image: linear-gradient(rgba(96, 122, 65, 0.4), rgba(96, 122, 65, 0.4)), url(img/mainhouse.jpg);
+  background-image: linear-gradient(rgba(96, 122, 65, 0.4), rgba(96, 122, 65, 0.4)), url(../img/mainhouse.jpg);
   background-size: cover;
   justify-items: center; }
 
