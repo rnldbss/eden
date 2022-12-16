@@ -266,7 +266,7 @@ html {
 .about__hero {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
-  background-image: url(../img/img-2.jpg);
+  background-image: url(../img/img-2.webpimg-44.webp);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -295,7 +295,7 @@ html {
 .about__cta {
   grid-row: 3 / 4;
   grid-column: 1 / -1;
-  background-image: url(../img/img-44.jpg);
+  background-image: url(../img/img-44.webp);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -378,7 +378,7 @@ html {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: 1fr 4fr 1fr;
-  background-image: linear-gradient(rgba(96, 122, 65, 0.3), rgba(96, 122, 65, 0.3)), url(../img/img-43.jpg);
+  background-image: linear-gradient(rgba(96, 122, 65, 0.3), rgba(96, 122, 65, 0.3)), url(../img/img-43.webp);
   background-size: cover;
   background-attachment: fixed;
   margin-left: 25px;
@@ -422,7 +422,7 @@ html {
   grid-column: 1 / 13;
   grid-row: 1 / 2;
   justify-items: center;
-  background-image: linear-gradient(rgba(96, 122, 65, 0.4), rgba(96, 122, 65, 0.4)), url(../img/mainhouse.jpg);
+  background-image: linear-gradient(rgba(96, 122, 65, 0.4), rgba(96, 122, 65, 0.4)), url(../img/mainhouse.webp);
   background-size: cover;
   background-position: center;
   text-align: center; }
@@ -646,7 +646,7 @@ ion-icon {
   grid-template-rows: repeat(6, 1fr);
   justify-items: center;
   align-items: center;
-  background-image: linear-gradient(rgba(96, 122, 65, 0.1), rgba(96, 122, 65, 0.1)), url(../img/img-44.jpg);
+  background-image: linear-gradient(rgba(96, 122, 65, 0.1), rgba(96, 122, 65, 0.1)), url(../img/img-44.webp);
   background-size: cover;
   background-position: center;
   margin-top: 2rem; }
@@ -709,13 +709,13 @@ ion-icon {
   margin: 50px; }
 
 .spa__section-img1 {
-  background-image: url(../img/img-84.jpg);
+  background-image: url(../img/img-84.webp);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
 .spa__section-img2 {
-  background-image: url(../img/img-85.jpg);
+  background-image: url(../img/img-85.webp);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -724,7 +724,7 @@ ion-icon {
   grid-column: 2 / 3; }
 
 .spa__section-img3 {
-  background-image: url(../img/img-77.jpg);
+  background-image: url(../img/img-77.webp);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -732,7 +732,7 @@ ion-icon {
   grid-column: 1 / 2; }
 
 .spa__section-img4 {
-  background-image: url(../img/img-23.jpg);
+  background-image: url(../img/img-23.webp);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
