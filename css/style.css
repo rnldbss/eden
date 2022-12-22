@@ -180,6 +180,9 @@ html {
   background-size: cover;
   background-attachment: fixed;
   margin: 0 2rem 10rem 2rem; }
+  @media (max-width: 1070px) {
+    .features {
+      margin: 0 0 3rem 0; } }
   .features-card {
     justify-self: center;
     max-width: 70%;
@@ -259,6 +262,9 @@ html {
   grid-row: 4 / 5;
   text-align: center;
   margin: 5rem 0 15rem 0; }
+  @media (max-width: 1070px) {
+    .benefits {
+      margin: 0 0 3rem 0; } }
   .benefits-text {
     padding-left: 80px;
     padding-right: 80px;
@@ -547,10 +553,16 @@ a {
 .services {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  grid-template-columns: repeat(4, minmax(190px, 1fr));
   gap: 50px;
   margin: 0 5rem 10rem 5rem;
   text-align: center; }
+  @media (max-width: 1200px) {
+    .services {
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); } }
+  @media (max-width: 1070px) {
+    .services {
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); } }
   .services-title {
     grid-column: 1 / -1;
     text-align: center; }
