@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh auto auto auto auto 75vh 35vh;
+  grid-template-rows: 100vh;
   grid-template-columns: repeat(12, 1fr); }
 
 html {
@@ -48,11 +48,20 @@ html {
 .about {
   display: grid;
   grid-column: 2 / 12;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   gap: 35px;
+  grid-template-rows: 500px 1fr;
   margin: 10rem 0 10rem 0; }
+  @media (max-width: 929px) {
+    .about {
+      margin: 3rem 0 3rem 0; } }
   .about-img {
-    max-width: 100%; }
+    max-width: 100%;
+    background-size: cover;
+    background-position: center; }
+    @media (max-width: 1070px) {
+      .about-img {
+        margin: 0 0 3rem 0; } }
 
 .about__container {
   display: grid;
