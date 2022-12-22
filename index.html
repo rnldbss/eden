@@ -30,7 +30,7 @@
       <img class="down-arrow" src="img/downArrow.webp" alt="Down Arrow" />
     </header>
     <div class="about">
-      <img src="img/img-80.webp" alt="" class="about-img" />
+      <figure><img src="img/img-80.webp" alt="" class="about-img" /></figure>
       <div class="about-text">
         <h2 class="heading-2">Sobre nós</h2>
         <p class="text-1">
@@ -53,38 +53,41 @@
         <h2 class="heading-2">&#45; nós oferecemos &#45;</h2>
         <p class="text-1">lorem ipsum dolor amet</p>
       </div>
-      <div class="services-box services-box_1">
+      <div>
         <img src="img/quarto.webp" alt="" class="services-img" />
         <h2 class="heading-2">hospedagem</h2>
         <p class="text-1">Lorem ipsum dolor sit amet</p>
+        <button class="btn">
+          <a href="html/hospedagem.html" class="btn__a"> explore</a>
+        </button>
       </div>
-      <button class="btn btn_1">
-        <a href="html/hospedagem.html" class="btn__a"> explore</a>
-      </button>
-      <div class="services-box services-box_2">
+
+      <div>
         <img src="img/oca.webp" alt="" class="services-img" />
         <h2 class="heading-2">retiros</h2>
         <p class="text-1">Lorem ipsum dolor sit amet</p>
+        <button class="btn">
+          <a href="html/hospedagem.html" class="btn__a"> explore</a>
+        </button>
       </div>
-      <button class="btn btn_2">
-        <a href="html/hospedagem.html" class="btn__a"> explore</a>
-      </button>
-      <div class="services-box services-box_3">
+
+      <div class="services__card-colapse">
         <img src="img/sauna.webp" alt="" class="services-img" />
         <h2 class="heading-2">spa terapêutico</h2>
         <p class="text-1">Lorem ipsum dolor sit amet</p>
+        <button class="btn">
+          <a href="html/hospedagem.html" class="btn__a"> explore</a>
+        </button>
       </div>
-      <button class="btn btn_3">
-        <a href="html/hospedagem.html" class="btn__a"> explore</a>
-      </button>
-      <div class="services-box services-box_4">
+
+      <div class="services__card-colapse">
         <img src="img/img-83.webp" alt="" class="services-img" />
         <h2 class="heading-2">passeios</h2>
         <p class="text-1">Lorem ipsum dolor sit amet</p>
+        <button class="btn">
+          <a href="html/hospedagem.html" class="btn__a"> explore</a>
+        </button>
       </div>
-      <button class="btn btn_4">
-        <a href="html/hospedagem.html" class="btn__a"> explore</a>
-      </button>
     </div>
     <div class="benefits">
       <hr class="green-line" />
@@ -125,9 +128,12 @@
     </div>
 
     <div class="carousel">
-      <div class="carousel__img-container">
+      <button class="carousel__btn carousel__btn--left">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      <figure class="carousel__img-container">
         <img src="img/simon.webp" alt="" class="carousel__image" id="img" />
-      </div>
+      </figure>
       <blockquote class="testimonial">
         <p class="testimonial__text text-1" id="testimonial">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste,
@@ -137,9 +143,7 @@
         <p class="testimonial__name heading-2" id="name">Simon</p>
         <p class="testimonial__job text-1" id="job"></p>
       </blockquote>
-      <button class="carousel__btn carousel__btn--left">
-        <ion-icon name="chevron-back-outline"></ion-icon>
-      </button>
+
       <button class="carousel__btn carousel__btn--right">
         <ion-icon name="chevron-forward-outline"></ion-icon>
       </button>
