@@ -13,17 +13,31 @@
     />
   </head>
   <body class="container">
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="html/about.html">SOBRE</a></li>
-        <li><a href="html/hospedagem.html">HOSPEDAGEM</a></li>
-        <li><a href="">RETIROS</a></li>
-        <li><a href="html/spa.html">SPA TERAPÊUTICO</a></li>
-        <li><a href="html/contact.html">CONTATO</a></li>
-        <li><a href="html/gallery.html">GALERIA</a></li>
-      </ul>
-    </nav>
+    <header class="main_h">
+      <div class="row">
+        <a href="#header"
+          ><img class="logo" src="images/logo-fabio.png" alt="logo-fabio-merli"
+        /></a>
+
+        <div class="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="test">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="html/about.html">SOBRE</a></li>
+            <li><a href="html/hospedagem.html">HOSPEDAGEM</a></li>
+            <li><a href="">RETIROS</a></li>
+            <li><a href="html/spa.html">SPA TERAPÊUTICO</a></li>
+            <li><a href="html/contact.html">CONTATO</a></li>
+            <li><a href="html/gallery.html">GALERIA</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <header id="parallax" class="header">
       <h1 class="heading-1">ÉDEN SANTUÁRIO</h1>
       <h3 class="heading-3">bem vindos</h3>
@@ -230,8 +244,12 @@
       </div>
     </div>
 
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.9.1.js"
+    ></script>
+    <script src="nav.js" async defer></script>
     <script src="parallax.js" async defer></script>
-    <script src="scrollNav.js" async defer></script>
     <script src="testemonial.js" async defer></script>
   </body>
 </html>
