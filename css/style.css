@@ -188,17 +188,20 @@ html {
   background-image: linear-gradient(rgba(115, 130, 118, 0.3), rgba(115, 130, 118, 0.3)), url(../img/img-43.webp);
   background-size: cover;
   background-attachment: fixed;
-  margin: 0 2rem 10rem 2rem; }
+  margin: 0 2rem 10rem 2rem;
+  min-height: 700px; }
   @media (max-width: 1070px) {
     .features {
       margin: 0 0 3rem 0; } }
   .features-card {
     justify-self: center;
+    align-self: center;
     max-width: 70%;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
     text-align: center;
     margin: 10px;
+    padding: 30px;
     transition: transform 0.3s;
     box-shadow: 0 1.5rem 4rem rgba(54, 61, 49, 0.15); }
     .features-card:hover {
