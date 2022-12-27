@@ -147,22 +147,31 @@ a {
 .icon-scale:hover {
   transform: scale(1.1); }
 
+.copyright {
+  grid-column: 1 / -1;
+  text-align: center; }
+
 .footer {
   background-color: #738276;
   grid-column: 1 / -1;
   grid-row: 7 / 8;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 35px;
   color: #ffffff;
-  padding: 5%; }
+  padding: 5%;
+  padding-bottom: 20px;
+  justify-items: center; }
   .footer__icon {
     height: 2.5rem;
-    width: 2.5rem; }
+    width: 2.5rem;
+    margin: 3rem 2rem 0.5rem 0.5rem;
+    margin-left: 0; }
   .footer__nav {
     list-style: none; }
   .footer__nav li {
-    margin: 1rem 0; }
+    margin: 1rem 0;
+    font-family: "Montserrat", sans-serif; }
 
 .features {
   grid-column: 1 / -1;
